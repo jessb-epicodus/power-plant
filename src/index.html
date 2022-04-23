@@ -1,9 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Title</title>
-</head>
-<body>
-
-</body>
+<html>
+  <head>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/plant.js"></script>
+    <title>Grow Your Plant</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="grow-buttons">
+            <button class="btn-success" id="feed">Feed plant 1</button>
+            <button class="btn-success" id="super-feed">Super feed plant 1</button>
+            <button class="btn-success" id="water">Water plant 1</button>
+            <button class="btn-success" id="super-water">Super water plant 1</button>
+          </div>
+          <h1>Plant 1's Values</h1>
+          <h3><div id="soil-value">0</div></h3>
+          <h3><div id="water-value">0</div></h3>  
+        </div>
+        <div class="col-6">
+          <div class="grow-buttons">
+            <button class="btn-success" id="feed2">Feed plant 2</button>
+            <button class="btn-success" id="super-feed2">Super feed plant 2</button>
+            <button class="btn-success" id="water2">Water plant 2</button>
+            <button class="btn-success" id="super-water2">Super water plant 2</button>
+    
+          </div>
+          <h1>Plant 2's Values</h1>
+          <h3><div id="soil-value2">0</div></h3>
+          <h3><div id="water-value2">0</div></h3>  
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
